@@ -1,6 +1,6 @@
 # PROJECT FILES
-datasets/
 .env
+datasets/*.csv
 
 
 ## GENERAL
