@@ -10,6 +10,6 @@ Le jeu de données a été trouvé sur kaggle. Il regroupe toutes les informatio
 
 Nous allons approcher le jeu de données de trois manière différente:
 
-- Clustering pour trouver des segments clients (définir les différents types de clients), en se basant sur les données des commandes clients.
-- Recommendation / factorisation de matrice pour les produits, en se basant sur les données des avis clients.
-- Créer une matrice d'adjacence et faire de la prédiction de lien sur le graphe résultant, en se basant sur la géolocalisation (code postal des clients, des vendeurs) et les relations clients / vendeurs.
+- Clustering pour trouver des segments clients (définir les différents types de clients), en se basant sur les données des commandes clients -> Massamba
+- Recommendation / factorisation de matrice pour les produits, en se basant sur les données des avis clients réalisé -> Matéo
+- Créer une matrice d'adjacence et faire de la prédiction de lien sur le graphe résultant, en se basant sur la géolocalisation (code postal des clients, des vendeurs) et les relations clients / vendeurs -> Axel

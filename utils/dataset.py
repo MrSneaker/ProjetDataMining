@@ -3,7 +3,6 @@ import zipfile
 
 DATASET_NAME = "olistbr/brazilian-ecommerce"
 
-
 def download_dataset():
     output_path = os.path.join(os.getcwd(), "datasets")
     
@@ -12,8 +11,8 @@ def download_dataset():
     key = os.getenv("KAGGLE_KEY")
     
     # Api request to download the dataset
-    api_cmd = f"kaggle datasets download -d {DATASET_NAME} -p {output_path} --force"
-    os.system(f"KAGGLE_USERNAME={user} KAGGLE_KEY={key} {api_cmd}")
+    api_cmd = f"kaggle datasets download -d {DATASET_NAME} -p {output_path}"
+    os.system(f"{api_cmd}")
     
     # Extract the downloaded zip file
     with zipfile.ZipFile(os.path.join(output_path, f"{DATASET_NAME.split('/')[1]}.zip"), 'r') as zip_ref:
