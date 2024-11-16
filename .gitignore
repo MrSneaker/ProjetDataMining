@@ -168,3 +168,4 @@ cython_debug/
 #.idea/
 
 recommendation/*.pkl
+!recommendation/best_model.pkl
