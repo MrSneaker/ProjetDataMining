@@ -16,5 +16,5 @@ Les schéma du jeu de données est le suivant:
 Nous allons approcher le jeu de données de trois manière différente:
 - Clustering pour trouver des segments clients (définir les différents types de clients), en se basant sur les données des commandes clients par Massamba
 - Recommendation / factorisation de matrice pour les produits, en se basant sur les données des avis clients réalisé par Matéo
-- Créer une matrice d'adjacence et faire de la prédiction de lien sur le graphe résultant, en se basant sur la géolocalisation (code postal des clients, des vendeurs) et les relations clients / vendeurs par Axel
+- Méthodes d'analyse basées sur les graphes pour extraire des informations supplémentaires à partir des relations entre les différentes entités du jeu de données par Axel
 
